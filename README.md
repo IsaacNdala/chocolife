@@ -1,7 +1,7 @@
 # Chocolife
 ![](/img/Project%20Image.png)
 
-## Table of Content
+## Table of Contents
 * [About the Project](https://github.com/IsaacNdala/chocolife#about-the-project)
 * [Built With](https://github.com/IsaacNdala/chocolife#built-with)
 * [Getting Started](https://github.com/IsaacNdala/chocolife#getting-started)
