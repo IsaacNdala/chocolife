@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chocolife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+</head>
+<body>
+
+    <!--Navbar-->
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-danger">
+            <div class="container">
+
+               <i><a href="index.html" class="navbar-brand h1 mb-0">Chocolife</a></i>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="site">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="productos.html" class="nav-link">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="perfil.html" class="nav-link">Perfil</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="dicas.html" class="nav-link">Dicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-dark mr-5" data-toggle="modal" data-target="#Modalsite">Comprar</button>
+                </div>
+            </div>
+        </nav> 
+
+    <!--Modal-->
+    <div class="modal fade" id="Modalsite" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">COMPRA</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="#">
+
+                       <label for="producto">Producto</label><select name="producto" id="producto" class="form-control">
+                        <option value="Pacimo">Pacimo</option>
+                        <option value="Embaré">Embaré</option>
+                        <option value="Coffee">Coffee</option>
+                        <option value="Mundy">Mundy</option>
+                        <option value="Mini">Mini</option>
+                        <option value="Milk">Milk</option>
+                       </select>
+
+                       <label for="qtd">Quantidade</label><input type="number" min="0" value="1" class="form-control col-sm-4 mb-2">
+
+                       <label for="loc">Localização</label><textarea name="loc" id="loc" cols="30" rows="5" class="form-control" placeholder="Local em que se encontra"></textarea>
+                    
+                      <div class="modal-footer">
+                            <input type="submit" class="btn btn-danger" data-dismiss="modal" value="Enviar">
+                      </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <img src="img/kite.jpg" class="img-fluid" alt="">
+
+    <div class="container">
+
+            <div class="row justify-content-sm-center">
+    
+                <div class="col-9">
+    
+                    <h1 class="display-4">Cuide de Sua Hiegene Dentária</h1>
+    
+                    <p class="text-justify"> Higiene dentária é fundamental para prevenir o desenvolvimento de cáries e de doenças nas gengivas. O seu objectivo é muito concreto: eliminar, com certa frequência, a placa dentária em contínua formação. Este objectivo alcança-se basicamente com a regular escovagem dos dentes, devidamente complementada com o uso do fio dental.</p>
+    
+                </div>
+    
+                <div class="col-3">
+                    <img src="img/chocosmile.jpg" alt="">
+                </div>
+    
+            </div>    
+    
+        </div>
+
+        <!--Scrollspay-->
+    <div class="container">    
+    
+    <div class="row mb-5">
+
+            <div class="col-sm-6 col-md-4 mb-3">
+        
+                <nav class="navbar navbar-light bg-light" id="navbarVertical">
+        
+                    <nav class="nav nav-pills flex-column">
+
+                    <a href="#item1" class="nav-link">Escovagem de dentes</a>
+                        
+                    <!--subTítulo-->
+                        <nav class="nav nav-pills flex-column ml-3">
+
+                            <a href="#item1-1" class="nav-link">Técnica de escovagem</a> 
+                            
+                            <a href="#item1-2" class="nav-link">Frequência</a>
+
+                        </nav>
+
+                    <a href="#item2" class="nav-link my-2">Fio dental</a>
+
+                    <a href="#item3" class="nav-link my-2">Escova ideal</a>
+
+                    <a href="#item4" class="nav-link my-2">Escovagem de dentes eficaz</a>
+
+                    <a href="#item5" class="nav-link my-2">A visita ao dentista</a>
+
+                    <a href="#item6" class="nav-link my-2">Massagem das gengivas</a>
+                    
+               
+                </nav>
+            </nav>
+        </div>
+
+        <div class="col-sm-6 col-md-8">
+
+            <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollSpysite">
+
+                <h4 id="item1">Escovagem de dentes</h4>
+                <p class="text-justify">A eficácia da escovagem de dentes baseia-se em dois factores: a sua técnica e a frequência com que se pratica. A técnica é de extrema importância, porque a escovagem dos dentes só se torna realmente efectiva se se conseguir eliminar a placa bacteriana da superfície de todos e de cada um dos dentes. Para além disso, uma escovagem de dentes incorrecta não só será ineficaz, como também poderá ser prejudicial, pois danifica os dentes e irrita as gengivas. A frequência da escovagem de dentes também é decisiva, porque há que impedir que os microorganismos tenham tempo de produzir os ácidos que atacam os dentes.</p>
+
+                <h5 id="item1-1">Técnica de escovagem</h5>
+                <p class="text-justify">Uma boa escovagem de dentes requer três fases:<br/><br/>
+
+                    1. A parte externa dos dentes deve ser escovada na vertical, para limpar da gengiva ao limite da superfície dos dentes, tanto nos superiores (movimento de cima para baixo) como nos inferiores (de baixo para cima).<br/><br/>
+
+                    2. A parte interna dos dentes também deve ser escovada com um movimento vertical, para limpar desde a gengiva até à superfície livre, para o qual é imprescindível realizar um pequeno movimento giratório do pulso.<br/><br/>
+
+                    3. A parte mastigatória dos molares deve ser limpa apoiando a ponta dos pêlos da escova sobre a superfície e efectuando um movimento circular, em forma de remoinho, para eliminar a placa bacteriana e todo o resto de alimentos dos sulcos e das fissuras.</p>
+
+                <h5 id="item1-2">Frequência</h5>
+                <p class="text-justify">A escovagem dos dentes tem que ser praticada com regularidade: ao levantar-se pela manhã, depois de cada refeição e, por último, antes de se deitar. É muito importante escovar os dentes após as refeições e, inclusive, sempre que se coma uma sandes, uma guloseima ou um bolo, tendo em conta que há um tempo limite para evitar todo o perigo - há que fazê-lo antes que passe meia hora, período necessário para as bactérias da placa dentária fabricarem as substâncias ácidas que destroem os dentes. Se a escovagem dos dentes for efectuada correctamente e antes deste período, terá de certeza os dentes bem protegidos.</p>
+
+                <h4 id="item2">Fio dental</h4>
+                <p class="text-justify">O fio dental é utilizado para eliminar a placa dentária e os restos dos alimentos dos espaços interdentais, onde é mais difícil aceder com a escova de dentes. A técnica de utilização, apesar de difícil de aprender, é na verdade muito simples: corta-se um pedaço de fio, que se deve manter esticado, enrolando os extremos num dedo de cada uma das mãos, e introduz-se entre dois dentes efectuando um movimento de serra, primeiro sobre a superfície de um dente e depois sobre a do outro.<br/><br/>
+
+                Este procedimento deve ser aplicado a toda a dentadura, nos espaços que separam todos os dentes. O ideal é fazê-lo como complemento de cada escovagem de dentes, devendo ser praticado, pelo menos, duas vezes por dia.</p>
+
+                <h4 id="item3">Escova ideal</h4>
+                <p class="text-justify">Para que a técnica de escovagem dos dentes seja correcta, antes de mais, temos que ter em conta um factor primordial: a escova deve cumprir requisitos básicos e adequar-se às necessidades de cada utilizador. Uma boa escova de dentes deve ter um tamanho adaptado à boca de quem a utiliza, maior para um adulto e mais pequena para uma criança, e o mais importante é que a cabeça seja suficientemente pequena para chegar a todos os cantos da boca. Caso tenha uma forma anatómica, será eventualmente mais fácil de manejar, mas isso é uma questão de preferência pessoal. O que é mais importante é que os pêlos não sejam muito duros, para que não danifiquem as gengivas, nem muito moles, porque assim não irão cumprir a sua missão.</p>
+
+                <h4 id="item4">Escovagem de dentes eficaz</h4>
+                <p class="text-justify">Como podemos saber se a escovagem de dentes é realmente eficaz, se elimina realmente a placa dentária de todos os dentes ou se deixa sectores da dentadura à mercê da nociva acção da placa dentária? Há um procedimento muito útil e igualmente muito simples para o comprovar: a utilização de umas pastilhas colorantes que, ao dissolverem-se na boca, tingem a placa dentária. Estas pastilhas vendem-se nas farmácias e, para além de serem inócuas, são muito eficazes. Ao colorirem a placa dentária, é possível apreciar com exactidão os sectores da dentadura onde o escovar de dentes não actuou como seria necessário, sectores onde há que fazer chegar, consequentemente, a escova de dentes e insistir mais. Uma boa medida é comprovar onde não se escova bem e tentar melhorar a técnica e, ao fim de um determinado período de tempo, voltar a utilizar as pastilhas colorantes para ver se a escovagem de dentes se tornou realmente mais eficaz.</p>
+
+                <h4 id="item5">A visita ao dentista</h4>
+                <p class="text-justify">Mesmo que escovemos os dentes e utilizemos o fio dental várias vezes ao dia, haverá sempre pequenos sectores da dentadura que escaparão ao nosso controlo - sobre a placa dentária que se forma nestes sectores depositar-se-ão minerais que irão constituir uma crosta dura denominada tártaro. Trata-se de concreções sólidas que, quando são formadas, a escova não pode arrancar, mesmo com movimentos enérgicos; por baixo do tártaro, as bactérias continuarão a produzir ácidos que, mais cedo ou mais tarde, acabarão por destruir o dente. Impõe-se, então, a eliminação do tártaro, o que só é possível pelas mãos do dentista.<br/><br/>
+
+                    Para eliminar o tártaro, o dentista raspa a superfície dos dentes com um instrumento afiado ou através de um aparelho de ultra-sons que tem o mesmo efeito; depois, procede ao polimento dos dentes com uma pasta abrasiva que deixa a superfície lisa e sensível à acção da escova de dentes.<br/><br/>
+                    
+                    Aconselha-se a visita ao dentista de seis em seis meses ou, no máximo, uma vez por ano, mesmo na ausência de qualquer dor, para avaliar o estado da nossa denta¬dura e decidir se é necessário efectuar uma limpeza.</p></p>
+                
+                <h4 id="item6">Massagem das gengivas</h4>
+                <p class="text-justify">Para além de escovar os dentes, convém efectuar uma massagem das gengivas com a própria escova. Para isso, e com a escova seca, há que colocar a ponta dos pêlos da escova ligeiramente inclinada e fazer uma série de movimentos de frente para trás, sem deslocar a escova.</p>
+
+            </div>
+        
+        </div>
+
+    </div>
+    
+
+    <!--Rodapé-->
+    <div class="container">
+
+        <div class="row">
+    
+                <div class="col-12 mb-3"><hr></div>
+    
+                <div class="col-sm-4">
+    
+                    <h4>Missão</h4>
+    
+                    <p class="text-justify">Distribuir doces para dar alegria, porque das pequenas coisa que transmitem alegria os doces são algumas delas</p>
+    
+                    <h4>Visão</h4>
+    
+                    <p class="text-justify">Tornar a vida doce sem disrespeitar os seus limites</p>
+    
+                </div>
+    
+                <div class="col-sm-4">
+    
+                    <h4 class="text-center">Menu</h4>
+    
+                    <div class="list-group text-center">
+                        <a href="productos.html" class="list-group-item list-group-item-action list-group-item-primary">Productos</a>
+                        <a href="perfil.html" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+                        <a href="dicas.html" class="list-group-item list-group-item-action list-group-item-primary">Dicas</a>
+                        <a href="dicas.html" class="list-group-item list-group-item-action list-group-item-primary">Contacto</a>
+                    </div>
+    
+                </div>
+    
+                <div class="col-sm-4">
+    
+                    <h4 class="text-center">Social</h4>
+    
+                    <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                        <a href="#" class="btn btn-outline-primary">Facebook</a>
+                        <a href="#" class="btn btn-outline-info">Twitter</a>
+                        <a href="#" class="btn btn-outline-warning">Instagram</a>
+                    </div>
+    
+                </div>
+    
+                <div class="col-12 mt-3">
+    
+                        <blockquote class="blockquote text-center">
+    
+                            <p class="mb-0">Todos os Direitos Reservados</p>
+    
+                            <footer class="blockquote-footer">Copyright-2019 <cite title=Título>Chocolife</cite></footer>
+    
+                        </blockquote>
+                    
+                    </div>
+    
+            </div>
+        
+        </div>
+    
+       </div>
+    
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+    </html>

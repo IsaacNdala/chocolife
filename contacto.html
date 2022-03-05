@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chocolife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    
+</head>
+<body>
+
+    <!--Navbar-->
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-danger">
+            <div class="container">
+
+               <i><a href="index.html" class="navbar-brand h1 mb-0">Chocolife</a></i>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="site">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="productos.html" class="nav-link">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="perfil.html" class="nav-link">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dicas.html" class="nav-link">Dicas</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-dark mr-5" data-toggle="modal" data-target="#Modalsite">Comprar</button>
+                </div>
+            </div>
+        </nav> 
+
+    <!--Modal-->
+    <div class="modal fade" id="Modalsite" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">COMPRA</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="#">
+
+                       <label for="producto">Producto</label><select name="producto" id="producto" class="form-control">
+                        <option value="Pacimo">Pacimo</option>
+                        <option value="Embaré">Embaré</option>
+                        <option value="Coffee">Coffee</option>
+                        <option value="Mundy">Mundy</option>
+                        <option value="Mini">Mini</option>
+                        <option value="Milk">Milk</option>
+                       </select>
+
+                       <label for="qtd">Quantidade</label><input type="number" min="0" value="1" class="form-control col-sm-4 mb-2">
+
+                       <label for="loc">Localização</label><textarea name="loc" id="loc" cols="30" rows="5" class="form-control" placeholder="Local em que se encontra"></textarea>
+                    
+                      <div class="modal-footer">
+                            <input type="submit" class="btn btn-danger" data-dismiss="modal" value="Enviar">
+                      </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <img src="img/contacto.png" class="img-fluid" alt="">
+
+    <!--Formulário-->
+    <div class="container">
+            <div class="row">
+                <div class="col-12 text-center my-5">
+                    <h1 class="display-4">Contacte-nos</h1>
+                </div>
+            </div>
+    
+    
+            <div class="row justify-content-center mb-5">
+               
+                <div class="col-sm-12 col-md-10 col-lg-8">
+               
+                    <form action="">
+               
+                        <div class="form-row">
+    
+                            <div class="form-group col-sm-6">
+    
+                                <label for="inputNome">Nome</label>
+                                <input type="text" class="form-control" name="inputNome" id="inputNome" placeholder="Seu nome">
+    
+                            </div>
+                        
+                            <div class="form-group col-sm-6">
+    
+                                <label for="inputSobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" name="inputSobrenome" id="inputSobrenome" placeholder="Seu sobrenome">
+    
+                            </div>
+    
+                        </div>
+    
+    
+                        <div class="form-row">
+    
+                            <div class="form-group col-sm-12">
+    
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail">
+    
+                            </div>
+    
+                        </div>  
+                        
+                        
+                        <div class="form-row">
+    
+                            <div class="form-group col-sm-4">
+    
+                                <label for="inputPro">Província</label>
+                                <input type="text" class="form-control" id="inputPro" placeholder="Sua Província">
+    
+                            </div>
+    
+                            <div class="form-group col-sm-4">
+    
+                                <label for="inputMuni">Muncípio</label>
+                                <select class="form-control" name="inputMuni" id="inputMuni">
+                                    <option selected>Cazenga</option>
+                                    <option value="Viana">Viana</option>
+                                    <option value="Belas">Belas</option>
+                                    <option value="Luanda">Luanda</option>
+                                </select>
+    
+                            </div>
+    
+                            <div class="form-group col-sm-4">
+    
+                                <label for="inputCEP">Bairro</label>
+                                <input type="text" class="form-control" name="inputCEP" id="inputCEP" placeholder="Seu Bairro">
+    
+                            </div>
+    
+                        </div>
+    
+                        <div class="form-row">
+    
+                            <div class="form-group col-sm-12">
+    
+                                <div class="form-check">
+    
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input">Desejo receber novidades por e-mail
+                                    </label>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+    
+                        <div class="form-row">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+    
+                            <!--Popover-->
+                            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Ajuda" data-content="A especialização também ocorreu nas tintas. Quanto maior o número de cores de tinta, menor a necessidade de combiná-las para se chegar à cor desejada.">Ajuda</a>
+                        </div>
+               
+                    </form>
+               
+                </div>
+            
+                </div>
+
+        <!--Rodapé-->
+    <div class="container">
+
+        <div class="row">
+    
+                <div class="col-12 mb-3"><hr></div>
+    
+                <div class="col-sm-4">
+    
+                    <h4>Missão</h4>
+    
+                    <p class="text-justify">Distribuir doces para dar alegria, porque das pequenas coisa que transmitem alegria os doces são algumas delas</p>
+    
+                    <h4>Visão</h4>
+    
+                    <p class="text-justify">Tornar a vida doce sem disrespeitar os seus limites</p>
+    
+                </div>
+    
+                <div class="col-sm-4">
+    
+                    <h4 class="text-center">Menu</h4>
+    
+                    <div class="list-group text-center">
+                        <a href="productos.html" class="list-group-item list-group-item-action list-group-item-primary">Productos</a>
+                        <a href="perfil.html" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+                        <a href="dicas.html" class="list-group-item list-group-item-action list-group-item-primary">Dicas</a>
+                        <a href="dicas.html" class="list-group-item list-group-item-action list-group-item-primary">Contacto</a>
+                    </div>
+    
+                </div>
+    
+                <div class="col-sm-4">
+    
+                    <h4 class="text-center">Social</h4>
+    
+                    <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                        <a href="#" class="btn btn-outline-primary">Facebook</a>
+                        <a href="#" class="btn btn-outline-info">Twitter</a>
+                        <a href="#" class="btn btn-outline-warning">Instagram</a>
+                    </div>
+    
+                </div>
+    
+                <div class="col-12 mt-3">
+    
+                        <blockquote class="blockquote text-center">
+    
+                            <p class="mb-0">Todos os Direitos Reservados</p>
+    
+                            <footer class="blockquote-footer">Copyright-2019 <cite title=Título>Chocolife</cite></footer>
+    
+                        </blockquote>
+                    
+                    </div>
+    
+            </div>
+        
+        </div>
+    
+       </div>
+    
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+    </html>

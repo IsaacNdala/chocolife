@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chocolife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    
+</head>
+<body>
+
+    <!--Navbar-->
+        <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-dark bg-danger">
+            <div class="container">
+
+               <i><a href="index.html" class="navbar-brand h1 mb-0">Chocolife</a></i>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="site">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="productos.html" class="nav-link">Productos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="perfil.html" class="nav-link">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dicas.html" class="nav-link">Dicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-dark mr-5" data-toggle="modal" data-target="#Modalsite">Comprar</button>
+                </div>
+            </div>
+        </nav> 
+
+        <!--Modal-->
+    <div class="modal fade" id="Modalsite" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+    
+                    <div class="modal-header">
+                        <h4 class="modal-title">COMPRA</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+    
+                    <div class="modal-body">
+                        <form action="#">
+    
+                           <label for="producto">Producto</label><select name="producto" id="producto" class="form-control">
+                            <option value="Pacimo">Pacimo</option>
+                            <option value="Embaré">Embaré</option>
+                            <option value="Coffee">Coffee</option>
+                            <option value="Mundy">Mundy</option>
+                            <option value="Mini">Mini</option>
+                            <option value="Milk">Milk</option>
+                           </select>
+    
+                           <label for="qtd">Quantidade</label><input type="number" min="0" value="1" class="form-control col-sm-4 mb-2">
+
+                           <label for="loc">Localização</label><textarea name="loc" id="loc" cols="30" rows="5" class="form-control" placeholder="Local em que se encontra"></textarea>
+                        
+                          <div class="modal-footer">
+                                <input type="submit" class="btn btn-danger" data-dismiss="modal" value="Enviar">
+                          </div>
+    
+                        </form>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <img src="img/5.png" class="img-fluid" alt="">
+
+          <!--Texto-->
+    <div class="container mt-5">
+
+        <div class="row justify-content-center">
+ 
+             <div class="text-center">
+ 
+                 <h1 class="display-4">Chocolife</h1>
+ 
+                 <p class="lead"><b><i>Sinta a Doçura da Vida</i></b></p>
+             
+             </div>
+ 
+             <div class="col-sm-6">
+                <p class="text-justify">Chocolife é uma empresa virada na venda e encomenda de doces feitos à base de chocolates, composta por seis (6) elementos, criada em 23 de Julho de 2018. Além da venda de chocolates a Choco Life trabalha no sentido de sensibilizar os clientes e a sociedade em geral sobre os cuidados a ter para manter a higiene dentária.</p>
+
+                <p class="text-justify">A ideia foi baseada no sucesso individual de um dos elementos do grupo na venda de chocolates na escola, como grupo decidimos dar amplitude neste projecto expandindo além da escola para outros campos sociais.</p>
+
+                <p class="text-justify">Serão vendidos diferentes tipos de chocolates como os da marca: Mundy, Coffie, Embaré, Pacimo. O nosso público alvo é a sociedade em geral.</p>
+
+                <p class="text-justify">Esperamos que no futuro as pessoas além de sentirem a alegria de consumirem os nossos produtos possam ter maior cuidado com a sua higiene dentária.</p>
+
+            </div>
+ 
+         </div>
+ 
+     </div>
+
+     <!--Card-->
+    <div class="container mt-5">
+
+            <h1 class="text-center display-4">Nossa Equipa</h1>
+        
+             <div class="row justify-content-sm-center">
+        
+                <div class="col-sm-4 col-md-3">
+        
+                    <div class="card mb-5">
+        
+                        <img class="card-img-top" src="img/perfil/1.jpg" alt="">
+                        <div class="card-body">
+                                <h4 class="card-title">Isaac Ndala</h4>
+                                <h6 class="card-subtitle text-muted mb-2">Diretor Geral</h6>
+                                </div>
+        
+                    </div>
+        
+                </div>
+        
+                <div class="col-sm-4 col-md-3">
+        
+                        <div class="card mb-5">
+        
+                            <img class="card-img-top" src="img/perfil/2.jpg" alt="">
+                            <div class="card-body">
+                                    <h4 class="card-title">Amadeu Samuel</h4>
+                                    <h6 class="card-subtitle text-muted mb-2">Director de Venda</h6>
+                                    </div>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-sm-4 col-md-3">
+        
+                            <div class="card mb-5">
+            
+                                <img class="card-img-top" src="img/perfil/3.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Márcio Daniel</h4>
+                                    <h6 class="card-subtitle text-muted mb-2">Director Finança</h6>
+                                    </div>
+            
+                            </div>
+            
+                        </div> 
+                        
+                        
+                        <div class="col-sm-4 col-md-3">
+        
+                            <div class="card mb-5">
+            
+                                <img class="card-img-top" src="img/perfil/4.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Alfeu Bena</h4>
+                                    <h6 class="card-subtitle text-muted mb-2">Director de Marketing</h6>
+                                    </div>
+            
+                            </div>
+            
+                        </div>            
+        
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3">
+        
+                            <div class="card mb-5">
+            
+                                <img class="card-img-top" src="img/perfil/5.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Márcia Caxicula</h4>
+                                    <h6 class="card-subtitle text-muted mb-2">Chefe de Venda</h6>
+                                    </div>
+            
+                            </div>
+            
+                        </div> 
+                        
+                        <div class="col-sm-4 col-md-3">
+        
+                            <div class="card mb-5">
+            
+                                <img class="card-img-top" src="img/perfil/6.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Wiliam Quizundo</h4>
+                                    <h6 class="card-subtitle text-muted mb-2">Chefe de Finança</h6>
+                                    </div>
+            
+                            </div>
+            
+                        </div>          
+                    </div>
+        
+                </div>
+        
+            </div>
+
+            <!--Rodapé-->
+            <div class="container">
+
+                <div class="row">
+            
+                        <div class="col-12 mb-3"><hr></div>
+            
+                        <div class="col-sm-4">
+            
+                            <h4>Missão</h4>
+            
+                            <p class="text-justify">Distribuir doces para dar alegria, porque das pequenas coisa que transmitem alegria os doces são algumas delas</p>
+            
+                            <h4>Visão</h4>
+            
+                            <p class="text-justify">Tornar a vida doce sem disrespeitar os seus limites</p>
+            
+                        </div>
+            
+                        <div class="col-sm-4">
+            
+                            <h4 class="text-center">Menu</h4>
+            
+                            <div class="list-group text-center">
+                                <a href="productos.html" class="list-group-item list-group-item-action list-group-item-primary">Productos</a>
+                                <a href="perfil.html" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+                                <a href="dicas.html" class="list-group-item list-group-item-action list-group-item-primary">Dicas</a>
+                                <a href="dicas.html" class="list-group-item list-group-item-action list-group-item-primary">Contacto</a>
+                            </div>
+            
+                        </div>
+            
+                        <div class="col-sm-4">
+            
+                            <h4 class="text-center">Social</h4>
+            
+                            <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                                <a href="#" class="btn btn-outline-primary">Facebook</a>
+                                <a href="#" class="btn btn-outline-info">Twitter</a>
+                                <a href="#" class="btn btn-outline-warning">Instagram</a>
+                            </div>
+            
+                        </div>
+            
+                        <div class="col-12 mt-3">
+            
+                                <blockquote class="blockquote text-center">
+            
+                                    <p class="mb-0">Todos os Direitos Reservados</p>
+            
+                                    <footer class="blockquote-footer">Copyright-2019 <cite title=Título>Chocolife</cite></footer>
+            
+                                </blockquote>
+                            
+                            </div>
+            
+                    </div>
+                
+                </div>
+            
+               </div>
+            
+                <script src="js/jquery.js"></script>
+                <script src="js/bootstrap.js"></script>
+            </body>
+            </html>
