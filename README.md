@@ -1,2 +1,2 @@
-# chocolife
+# Chocolife
 Chocolate candy online store
