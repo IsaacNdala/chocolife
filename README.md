@@ -1,2 +1,3 @@
 # Chocolife
-Chocolate candy online store
+2-Sobre
+![](/img/Project Image.png)
