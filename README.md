@@ -6,7 +6,7 @@
 * [Built With](https://github.com/IsaacNdala/chocolife#built-with)
 * [Getting Started](https://github.com/IsaacNdala/chocolife#getting-started)
 * [Author](https://github.com/IsaacNdala/chocolife#author)
-* [Contributing](https://github.com/IsaacNdala/chocolife#🤝%20contributing)
+* [Contributing](https://github.com/IsaacNdala/chocolife#&#129309;%20contributing)
 
 ## About the Project
 Chocolife is a HTML/CSS & Bootstrap for an online chocolate candy store. The application also focuses on sharing tips and advices to take care of mouth hygiene in addition to sell candies.
@@ -38,7 +38,7 @@ e.g. $ git clone <kbd>git@github.com:IsaacNdala/chocolife.git</kbd>
 * <b>Twitter</b> - [@IsaacNdala11](https://twitter.com/IsaacNdala11)
 * <b>LinkedIn</b> - [Isaac Ndala](https://www.linkedin.com/in/isaac-ndala-78943a188)
 
-## 🤝 Contributing
+## 🤝  Contributing
 
 Contributions, issues and feature requests are welcome!
 
