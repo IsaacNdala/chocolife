@@ -1,13 +1,19 @@
 # Chocolife
 ![](/img/Project%20Image.png)
+
+## Table of Content
+* [About the Project](https://github.com/IsaacNdala/chocolife#about-the-project)
+* [Built With](https://github.com/IsaacNdala/chocolife#built-with)
+* [Getting Started](https://github.com/IsaacNdala/chocolife#getting-started)
+
 ## About the Project
 Chocolife is a HTML/CSS & Bootstrap for an online chocolate candy store. The application also focuses on sharing tips and advices to take care of mouth hygiene in addition to sell candies.
+
 ## Built With
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [Bootstrap](https://getbootstrap.com/)
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
-
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
