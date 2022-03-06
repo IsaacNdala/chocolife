@@ -13,7 +13,7 @@
 ## About the Project
 Chocolife is a HTML/CSS & Bootstrap for an online chocolate candy shop. The application also focuses on sharing tips and advices to take care of mouth hygiene in addition to sell candies.
 
-The idea originated at high school in 2018 when my teacher of enterprising requested the class to create a group project for presenting at the annual enterprising fair FEAL (Feira de Empreendedorismo Alda Lara), then I thought would be great if I created a website for our organization, so that was what I did.
+The idea originated at high school in 2018 when my teacher of entrepreneurship requested the class to create a group project for presenting at the annual entrepreneurship fair FEAL (Feira de Empreendedorismo Alda Lara), then I thought would be great if I created a website for our organization, so that was what I did.
 
 ## Built With
 * [HTML](https://en.wikipedia.org/wiki/HTML)
