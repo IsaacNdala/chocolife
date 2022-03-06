@@ -4,6 +4,7 @@
 ## Table of Contents
 * [About the Project](https://github.com/IsaacNdala/chocolife#about-the-project)
 * [Built With](https://github.com/IsaacNdala/chocolife#built-with)
+* [Live Demo](https://github.com/IsaacNdala/chocolife#live-demo)
 * [Getting Started](https://github.com/IsaacNdala/chocolife#getting-started)
 * [Author](https://github.com/IsaacNdala/chocolife#author)
 * [Contributing](https://github.com/IsaacNdala/chocolife#contributing)
@@ -19,6 +20,9 @@ The idea originated at high school in 2018 when my teacher of enterprising reque
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [Bootstrap](https://getbootstrap.com/)
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+## Live Demo
+[Live Demo Link](https://chocolifenet.netlify.app/index.html)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
