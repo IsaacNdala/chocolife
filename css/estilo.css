@@ -1,3 +1,7 @@
+.navbar {
+    z-index: 100;
+}
+
 .scrollSpysite{
     position: relative;
     overflow: auto;
