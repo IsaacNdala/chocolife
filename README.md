@@ -39,9 +39,9 @@ e.g. $ git clone <kbd>git@github.com:IsaacNdala/chocolife.git</kbd>
 ## Author
 👤 <b>Isaac Ndala</b>
 
-* <b>GitHub</b> - [@IsaacNdala](https://github.com/IsaacNdala)
-* <b>Twitter</b> - [@IsaacNdala11](https://twitter.com/IsaacNdala11)
-* <b>LinkedIn</b> - [Isaac Ndala](https://www.linkedin.com/in/isaac-ndala-78943a188)
+* GitHub - [@IsaacNdala](https://github.com/IsaacNdala)
+* Twitter - [@IsaacNdala11](https://twitter.com/IsaacNdala11)
+* LinkedIn - [Isaac Ndala](https://www.linkedin.com/in/isaac-ndala)
 
 ## Contributing
 Contributions, issues and feature requests are welcome!
